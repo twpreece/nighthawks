@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Nighthawks Team Config">c76e0db8d8cf3d50976f1e6805a2dbaa</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>Dashboards</name>
+        <optional_parameters>sysId,openInEditMode</optional_parameters>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>dashboards</route_type>
+        <screen_type display_value="Dashboards">076e0db89acf3d5055a7a293e87dab8a</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-09 01:03:00</sys_created_on>
+        <sys_id>cb6e0db8f1cf3d50f8cf368e550ab28f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dashboards</sys_name>
+        <sys_package display_value="Nighthawks Team" source="x_snc_nighthawks_0">f9b4b1c0474bb55077497116536d4397</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_update_name>sys_ux_app_route_cb6e0db8f1cf3d50f8cf368e550ab28f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-09 01:03:00</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=cb6e0db8f1cf3d50f8cf368e550ab28f"/>
+</record_update>

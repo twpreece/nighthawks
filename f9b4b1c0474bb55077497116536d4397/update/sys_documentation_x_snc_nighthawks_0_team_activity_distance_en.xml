@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="distance" label="Distance" language="en" table="x_snc_nighthawks_0_team_activity">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>distance</element>
+            <help/>
+            <hint/>
+            <label>Distance</label>
+            <language>en</language>
+            <name>x_snc_nighthawks_0_team_activity</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-06 20:03:38</sys_created_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Distance</sys_name>
+            <sys_package display_value="Nighthawks Team" source="x_snc_nighthawks_0">f9b4b1c0474bb55077497116536d4397</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_nighthawks_0_team_activity_distance_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-06 20:03:39</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

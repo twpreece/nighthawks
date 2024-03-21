@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDd520e0781c0b3d509eb688f83dc0ede4</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>f9b4b1c0474bb55077497116536d4397</scope_name>
+        <serialized_content>{"FlowDesigner:FDd520e0781c0b3d509eb688f83dc0ede4":{"root_array":[{"$0_root_array":{"owner":"String","owner.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"owner\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\",\"uiUniqueId\":\"8833f1ac-809d-4f81-9a93-5cb646e77e11\"}"},"firstname":"String","firstname.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"firstname\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"bd010fe8-3ab2-4aa3-90af-2fad6ef0f783\"}"},"resource_state":"String","resource_state.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"resource_state\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"c1523ed7-c93b-489b-83e0-b566943120fc\"}"},"admin":"String","admin.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"admin\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\",\"uiUniqueId\":\"94a9e902-2e52-4ed6-8fcb-ec7c28a2274e\"}"},"membership":"String","membership.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"membership\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\",\"uiUniqueId\":\"f39b6a38-f3f6-41d2-913a-4f669fcea48a\"}"},"lastname":"String","lastname.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"lastname\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"c3a13885-faf3-4315-89f1-2ecbf7534003\"}"}}}],"root_array.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"root_array\",\"mandatory\":\"false\",\"child_name\":\"root_array_object\",\"uiUniqueId\":\"3b1dcb10-c284-49d2-ad17-84e32fcef89f\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"root_array_object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"0\",\"child_uiUniqueId\":\"10f1ec4b-9257-4a3a-8cbb-88e98fdbe040\"}"}},"FlowDesigner:FDd520e0781c0b3d509eb688f83dc0ede4.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"root\",\"mandatory\":\"false\",\"uiUniqueId\":\"3b824cf5-a186-4d6c-a2ed-fe49b6ca51b1\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDd520e0781c0b3d509eb688f83dc0ede4\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"0\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-08 21:40:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9920e078470b3d5077497116536d43e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDd520e0781c0b3d509eb688f83dc0ede4</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Nighthawks Team" source="x_snc_nighthawks_0">f9b4b1c0474bb55077497116536d4397</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_update_name>sys_complex_object_9920e078470b3d5077497116536d43e4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-08 21:40:47</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

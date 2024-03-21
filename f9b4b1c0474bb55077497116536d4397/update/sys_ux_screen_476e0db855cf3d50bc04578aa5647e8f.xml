@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Nighthawks Team Config">c76e0db8d8cf3d50976f1e6805a2dbaa</app_config>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <event_mappings>[ ]</event_mappings>
+        <macroponent display_value="Record Information">0f6e0db8abcf3d50858ed079a306ba79</macroponent>
+        <macroponent_config>{
+  "isOpenFrameConfigValid" : {
+    "type" : "DATA_OUTPUT_BINDING",
+    "binding" : {
+      "address" : [ "validate_openframe_configuration_1", "output", "isOpenframeConfigValid" ]
+    }
+  },
+  "recordSecondaryItems" : {
+    "type" : "DATA_OUTPUT_BINDING",
+    "binding" : {
+      "address" : [ "gform", "nowRecordCommonHeader", "secondaryItems" ]
+    }
+  },
+  "ribbonConfig" : {
+    "type" : "DATA_OUTPUT_BINDING",
+    "binding" : {
+      "address" : [ "gform", "snRecordRibbon" ]
+    }
+  },
+  "label" : {
+    "type" : "TRANSLATION_LITERAL",
+    "value" : {
+      "code" : null,
+      "message" : "Record Information",
+      "comment" : ""
+    }
+  },
+  "bare" : {
+    "type" : "JSON_LITERAL",
+    "value" : true
+  },
+  "scrollable" : {
+    "type" : "JSON_LITERAL",
+    "value" : "y"
+  },
+  "headerLevel" : {
+    "type" : "JSON_LITERAL",
+    "value" : "1"
+  },
+  "headingOnlyVisibleToScreenReaders" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "interceptNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "propagateNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  }
+}</macroponent_config>
+        <name>Record Information</name>
+        <order>0</order>
+        <parent_macroponent display_value="Record">558adc930f0210107d20409dc4767e84</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Record Information tab">4f6e0db8afcf3d50650dd0f44f4f0a8a</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-09 01:03:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>476e0db855cf3d50bc04578aa5647e8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Information</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Nighthawks Team" source="x_snc_nighthawks_0">f9b4b1c0474bb55077497116536d4397</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_update_name>sys_ux_screen_476e0db855cf3d50bc04578aa5647e8f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-09 01:03:00</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=476e0db855cf3d50bc04578aa5647e8f"/>
+</record_update>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_condition">
+    <sys_ux_screen_condition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions_params_mapping/>
+        <is_result_memoizable>false</is_result_memoizable>
+        <screen display_value="Record Information">476e0db855cf3d50bc04578aa5647e8f</screen>
+        <screen_condition/>
+        <script><![CDATA[(function showRecordInformationTab(params) {
+    var ribbonUtil = new x_snc_nighthawks_0.workspaceStarterExpUtils();
+    var experienceId = '036e0db88ecf3d501d1732a68d7d03ab';
+
+    // call the form header utility class with the current table, sys id, and experience id
+    var showSidePanelPage = ribbonUtil.shouldShowSidePanel(params.table, params.sysId, experienceId);
+    return showSidePanelPage;
+})(inputProperties);]]></script>
+        <scripted_condition>true</scripted_condition>
+        <sys_class_name>sys_ux_screen_condition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-09 01:02:59</sys_created_on>
+        <sys_id>0f6e0db8fdcf3d509e21925cdebc0f90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Nighthawks Team" source="x_snc_nighthawks_0">f9b4b1c0474bb55077497116536d4397</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_update_name>sys_ux_screen_condition_0f6e0db8fdcf3d509e21925cdebc0f90</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-09 01:02:59</sys_updated_on>
+    </sys_ux_screen_condition>
+</record_update>

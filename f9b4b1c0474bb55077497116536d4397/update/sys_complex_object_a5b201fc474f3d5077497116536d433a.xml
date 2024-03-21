@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDe1b201fc4e4f3d502ea492406cf38d3a</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>f9b4b1c0474bb55077497116536d4397</scope_name>
+        <serialized_content>{"FlowDesigner:FDe1b201fc4e4f3d502ea492406cf38d3a":{"root_array":[{"$0_root_array":{"owner":"String","owner.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"owner\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\",\"uiUniqueId\":\"59df127b-1a9f-496f-a6fd-fdcf818b8bd8\"}"},"firstname":"String","firstname.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"firstname\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"0167414a-d582-41bd-9817-4d3ce077507e\"}"},"resource_state":"String","resource_state.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"resource_state\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"b74a315e-8ba5-422b-b6aa-2f1d14535688\"}"},"admin":"String","admin.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"admin\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\",\"uiUniqueId\":\"982c8cd0-3f55-4347-b119-000e4c490d0b\"}"},"membership":"String","membership.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"membership\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\",\"uiUniqueId\":\"3d3cd748-9cf6-488d-bd73-91758d5520f1\"}"},"lastname":"String","lastname.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"lastname\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"39b174af-0b63-486c-b666-38c50a5df6e5\"}"}}}],"root_array.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"root_array\",\"mandatory\":\"false\",\"child_name\":\"root_array_object\",\"uiUniqueId\":\"91549b1d-70ee-4aa8-9d6a-cfcd08f74933\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"root_array_object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"0\",\"child_uiUniqueId\":\"6d099599-78c5-4efa-bced-fe2fd3a4bb1e\"}"}},"FlowDesigner:FDe1b201fc4e4f3d502ea492406cf38d3a.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"f5702ed4-b92c-4295-90e8-0b6659e5648f\",\"default_value\":\"\",\"label\":\"XML Payload\",\"mandatory\":\"false\",\"uiUniqueId\":\"29f06ce8-0067-4830-8d9d-9c2b60ff29c8\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDe1b201fc4e4f3d502ea492406cf38d3a\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"756bad68-11ea-4e55-bd2c-9bef4858a5dd\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-09 00:11:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a5b201fc474f3d5077497116536d433a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDe1b201fc4e4f3d502ea492406cf38d3a</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Nighthawks Team" source="x_snc_nighthawks_0">f9b4b1c0474bb55077497116536d4397</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_update_name>sys_complex_object_a5b201fc474f3d5077497116536d433a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-09 00:11:48</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

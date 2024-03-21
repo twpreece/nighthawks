@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="Athlete">907e41f847cf3d5077497116536d4333</ais_search_source>
+        <label>Athlete</label>
+        <name>Athlete</name>
+        <order>200</order>
+        <search_context_config display_value="Nighthawks Team AI Search Configuration">076e0db88ccf3d500efcf3538be3888d</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-09 01:03:03</sys_created_on>
+        <sys_id>187e41f847cf3d5077497116536d4345</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Athlete</sys_name>
+        <sys_package display_value="Nighthawks Team" source="x_snc_nighthawks_0">f9b4b1c0474bb55077497116536d4397</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_update_name>sys_search_filter_187e41f847cf3d5077497116536d4345</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-09 01:03:03</sys_updated_on>
+    </sys_search_filter>
+</record_update>

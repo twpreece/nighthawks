@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">476e0db8fdcf3d50f6432b95440cd17c</canvas>
+        <component display_value="Rich text">2d56f06d55f46bbd4e79b5e624beb940</component>
+        <component_props>{"html":"&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;&lt;strong&gt;&lt;a href=\"https://www.strava.com/clubs/437781/recent_activity?num_entries=20\"&gt;Team Strava&lt;/a&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;","noDebounce":""}</component_props>
+        <h>3</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-23 01:57:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>24412951471fb15077497116536d434b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Nighthawks Team" source="x_snc_nighthawks_0">f9b4b1c0474bb55077497116536d4397</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_update_name>par_dashboard_widget_24412951471fb15077497116536d434b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-23 01:59:17</sys_updated_on>
+        <visualization/>
+        <w>6</w>
+        <widget_props/>
+        <x>6</x>
+        <y>11</y>
+    </par_dashboard_widget>
+</record_update>

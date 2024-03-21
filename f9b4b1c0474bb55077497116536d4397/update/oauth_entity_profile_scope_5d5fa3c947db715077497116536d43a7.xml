@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile_scope">
+    <oauth_entity_profile_scope action="INSERT_OR_UPDATE">
+        <oauth_entity_profile display_value="Strava default_profile">846ca7c147db715077497116536d4373</oauth_entity_profile>
+        <oauth_entity_scope display_value="read">1c6ca3c147db715077497116536d43d8</oauth_entity_scope>
+        <sys_class_name>oauth_entity_profile_scope</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-22 17:40:25</sys_created_on>
+        <sys_id>5d5fa3c947db715077497116536d43a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>846ca7c147db715077497116536d4373</sys_name>
+        <sys_package display_value="Nighthawks Team" source="x_snc_nighthawks_0">f9b4b1c0474bb55077497116536d4397</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_update_name>oauth_entity_profile_scope_5d5fa3c947db715077497116536d43a7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-22 17:40:25</sys_updated_on>
+    </oauth_entity_profile_scope>
+</record_update>

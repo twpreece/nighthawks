@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="total_elevation_gain" label="Total Elevation Gain" language="en" table="x_snc_nighthawks_0_team_activity">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>total_elevation_gain</element>
+            <help/>
+            <hint/>
+            <label>Total Elevation Gain</label>
+            <language>en</language>
+            <name>x_snc_nighthawks_0_team_activity</name>
+            <plural>Total Elevation Gains</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-08 23:57:53</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Total Elevation Gain</sys_name>
+            <sys_package display_value="Nighthawks Team" source="x_snc_nighthawks_0">f9b4b1c0474bb55077497116536d4397</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_nighthawks_0_team_activity_total_elevation_gain_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-08 23:57:53</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

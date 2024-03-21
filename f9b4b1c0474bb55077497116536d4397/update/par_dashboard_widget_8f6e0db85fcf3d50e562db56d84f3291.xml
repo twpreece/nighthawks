@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">476e0db8fdcf3d50f6432b95440cd17c</canvas>
+        <component display_value="Heading">1f6e0643eca7a637e36bd7833549ec9e</component>
+        <component_props>{"variant":"header-secondary","label":"Recent Activities","wontWrap":false,"hasNoMargin":false,"level":"1","noDebounce":""}</component_props>
+        <h>3</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-09 01:02:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>8f6e0db85fcf3d50e562db56d84f3291</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Nighthawks Team" source="x_snc_nighthawks_0">f9b4b1c0474bb55077497116536d4397</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_update_name>par_dashboard_widget_8f6e0db85fcf3d50e562db56d84f3291</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-23 01:59:17</sys_updated_on>
+        <visualization/>
+        <w>6</w>
+        <widget_props/>
+        <x>0</x>
+        <y>11</y>
+    </par_dashboard_widget>
+</record_update>

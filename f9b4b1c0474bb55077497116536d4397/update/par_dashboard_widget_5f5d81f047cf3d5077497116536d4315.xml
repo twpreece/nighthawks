@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">be9981bc478f3d5077497116536d431d</canvas>
+        <component display_value="Bubble">50dbc52a13c8b4691f7c60e0246bf28c</component>
+        <component_props>{"showLegend":false,"legendPosition":"bottom","colorConfig":{"type":"default"},"newReporting":false,"additionalGroupByConfig":[],"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Activity","sourceType":"table","tableOrViewName":"x_snc_nighthawks_0_team_activity","filterQuery":"athlete.u_athlete=true","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4X3NuY19uaWdodGhhd2tzXzBfdGVhbV9hY3Rpdml0eTE3MDIwODMyODAwODA=","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"headerTitle":"Magnitude of effort","showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"dataPassthrough":null,"metrics":[{"dataSource":"dGFibGV4X3NuY19uaWdodGhhd2tzXzBfdGVhbV9hY3Rpdml0eTE3MDIwODMyODAwODA=","id":"ZEdGaWJHVjRYM051WTE5dWFXZG9kR2hoZDJ0elh6QmZkR1ZoYlY5aFkzUnBkbWwwZVRFM01ESXdPRE15T0RBd09EQT0xNzAyMDgzMjgwNzEy","aggregateFunction":"SUM","numberFormat":{"customFormat":false},"axisId":"primary","aggregateField":"distance"}],"groupBy":[{"groupBy":[{"dataSource":"dGFibGV4X3NuY19uaWdodGhhd2tzXzBfdGVhbV9hY3Rpdml0eTE3MDIwODMyODAwODA=","groupByField":"moving_time","isRange":false,"isChoice":false,"isPaBucket":false}],"categoryIndex":0,"maxNumberOfGroups":10,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"disableRanges":false},{"groupBy":[{"dataSource":"dGFibGV4X3NuY19uaWdodGhhd2tzXzBfdGVhbV9hY3Rpdml0eTE3MDIwODMyODAwODA=","groupByField":"total_elevation_gain","isRange":false,"isChoice":false,"isPaBucket":false}],"categoryIndex":1,"maxNumberOfGroups":10,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"disableRanges":false}],"sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableCustomEmptyState":false,"emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":false,"filterConfigurations":"@state.parFilters","contextMenuActions":[],"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":"previous","period":"M","dateFormat":"default","noDebounce":""}</component_props>
+        <h>16</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-09 00:58:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>5f5d81f047cf3d5077497116536d4315</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Nighthawks Team" source="x_snc_nighthawks_0">f9b4b1c0474bb55077497116536d4397</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_update_name>par_dashboard_widget_5f5d81f047cf3d5077497116536d4315</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-09 01:00:18</sys_updated_on>
+        <visualization/>
+        <w>18</w>
+        <widget_props/>
+        <x>0</x>
+        <y>30</y>
+    </par_dashboard_widget>
+</record_update>

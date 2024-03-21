@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Record Information">0f6e0db8abcf3d50858ed079a306ba79</macroponent>
+        <name>ribbon___isHidden__</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/** * @param {params} params * @param {api} params.api * @param {any} params.imports */
+function evaluateProperty({
+    api
+}) {
+    const loc = api.context.app.ribbonLocation;
+    if (typeof loc === 'undefined') {
+        loc = 'sidebar';
+    }
+    return (loc !== 'sidebar') || (api.context.app.ribbonLocation !== 'sidebar') || (typeof api.context.app.ribbonConfigId === 'undefined') || api.state.isLoading;
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-09 01:02:59</sys_created_on>
+        <sys_id>c36e0db8d1cf3d50ef01248a8bf14d90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ribbon___isHidden__</sys_name>
+        <sys_package display_value="Nighthawks Team" source="x_snc_nighthawks_0">f9b4b1c0474bb55077497116536d4397</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_update_name>sys_ux_client_script_c36e0db8d1cf3d50ef01248a8bf14d90</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-09 01:02:59</sys_updated_on>
+        <target/>
+        <type>transform</type>
+    </sys_ux_client_script>
+</record_update>

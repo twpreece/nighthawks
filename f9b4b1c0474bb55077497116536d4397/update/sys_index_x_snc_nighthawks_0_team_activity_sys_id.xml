@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <col_name_string>sys_id</col_name_string>
+        <index_col_name element="sys_id" name="x_snc_nighthawks_0_team_activity">09163184474bb55077497116536d43af</index_col_name>
+        <logical_table_name>x_snc_nighthawks_0_team_activity</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-12-08 23:47:04</sys_created_on>
+        <sys_id>570db4bc470f3d5077497116536d4362</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_nighthawks_0_team_activity</sys_name>
+        <sys_package display_value="Nighthawks Team" source="x_snc_nighthawks_0">f9b4b1c0474bb55077497116536d4397</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_update_name>sys_index_x_snc_nighthawks_0_team_activity_sys_id</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-12-08 23:47:04</sys_updated_on>
+        <table display_value="Activity" name="x_snc_nighthawks_0_team_activity">b8163184474bb55077497116536d431d</table>
+        <unique_index>false</unique_index>
+    </sys_index>
+</record_update>

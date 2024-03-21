@@ -1,0 +1,1000 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>strava_token_request</internal_name>
+        <label_cache>[{"name":"{{step[01dc051f-fe39-4ae2-942b-809426d7e3d2].root.access_token}}","label":"step➛JSON Parser step➛root➛access_token","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[01dc051f-fe39-4ae2-942b-809426d7e3d2].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[c0831d90-22e6-456f-940c-5e0dcc4f4258].tokenstring}}","label":"step➛Script step➛TokenString","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"json","uiUniqueId":"bf9a5f81-fc3f-4d34-98fb-91ea5efeb444","sourceUiUniqueId":"","sourceType":"","sourceId":""}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Strava Token Request</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 21:24:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4439d3b44717fd1077497116536d4381</sys_id>
+        <sys_mod_count>91</sys_mod_count>
+        <sys_name>Strava Token Request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Nighthawks Team" source="x_snc_nighthawks_0">f9b4b1c0474bb55077497116536d4397</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_4439d3b44717fd1077497116536d4381</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-22 01:06:40</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=4439d3b44717fd1077497116536d4381"/>
+    <sys_variable_value action="delete_multiple" query="document_key=4439d3b44717fd1077497116536d4381"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>4439d3b44717fd1077497116536d4381</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 21:33:46</sys_created_on>
+        <sys_id>153b9f3c4717fd1077497116536d4393</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 21:33:46</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"a45d4613-7a55-444e-b057-866dfbfb2ad7\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"3\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">d13b9f3c4717fd1077497116536d4384</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>4439d3b44717fd1077497116536d4381</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 21:33:46</sys_created_on>
+        <sys_id>1d3b9f3c4717fd1077497116536d4392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 21:33:46</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">d93b9f3c4717fd1077497116536d4389</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>4439d3b44717fd1077497116536d4381</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 23:03:11</sys_created_on>
+        <sys_id>8faf6f7847d7fd1077497116536d434a</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-22 00:08:41</sys_updated_on>
+        <value/>
+        <variable display_value="variable">eb626b3c4757fd1077497116536d43d6</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=4439d3b44717fd1077497116536d4381"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>variable</field>
+        <id>4439d3b44717fd1077497116536d4381</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 23:01:26</sys_created_on>
+        <sys_id>194fe7f447d7fd1077497116536d439e</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-22 00:08:41</sys_updated_on>
+        <table>var__m_sys_hub_action_output_4439d3b44717fd1077497116536d4381</table>
+        <value>{{step[01dc051f-fe39-4ae2-942b-809426d7e3d2].root}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>4439d3b44717fd1077497116536d4381</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 21:33:46</sys_created_on>
+        <sys_id>993b9f3c4717fd1077497116536d4392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 21:33:46</sys_updated_on>
+        <table>var__m_sys_hub_action_output_4439d3b44717fd1077497116536d4381</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>4439d3b44717fd1077497116536d4381</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 21:33:46</sys_created_on>
+        <sys_id>d13b9f3c4717fd1077497116536d4392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 21:33:46</sys_updated_on>
+        <table>var__m_sys_hub_action_output_4439d3b44717fd1077497116536d4381</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=4439d3b44717fd1077497116536d4381^sys_idNOT IN114fe7f447d7fd1077497116536d4377,7bebccc547dbfd1077497116536d43bd,914a1bb44717fd1077497116536d433e"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Strava Token Request">4439d3b44717fd1077497116536d4381</action>
+        <cid>01dc051f-fe39-4ae2-942b-809426d7e3d2</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>JSON Parser step</label>
+        <order>3</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 23:01:25</sys_created_on>
+        <sys_id>114fe7f447d7fd1077497116536d4377</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-22 00:51:47</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=114fe7f447d7fd1077497116536d4377"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>114fe7f447d7fd1077497116536d4377</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 23:01:26</sys_created_on>
+        <sys_id>914fe7f447d7fd1077497116536d4383</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-22 00:22:35</sys_updated_on>
+        <value>structured</value>
+        <variable display_value="Payload view">95d4280787523300f917e55936cb0bfe</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>114fe7f447d7fd1077497116536d4377</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 23:01:26</sys_created_on>
+        <sys_id>d54fe7f447d7fd1077497116536d4382</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-22 00:18:28</sys_updated_on>
+        <value>{"name":"root","children":[{"name":"token_type","children":[],"type":"string","jpath":"$.token_type","previewValue":"Bearer"},{"name":"access_token","children":[],"type":"string","jpath":"$.access_token","previewValue":"0581f92154b603dbd2ca2c813809608c52e6a11b"},{"name":"expires_at","children":[],"type":"string","jpath":"$.expires_at","previewValue":"1703208122"},{"name":"expires_in","children":[],"type":"string","jpath":"$.expires_in","previewValue":"9585"},{"name":"refresh_token","children":[],"type":"string","jpath":"$.refresh_token","previewValue":"3477bbdcf574d618b0c271aa79e47a0e6a854d48"}],"type":"object","jpath":"$","previewValue":""}</value>
+        <variable display_value="Target">4674240787523300f917e55936cb0b0e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>114fe7f447d7fd1077497116536d4377</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 23:01:26</sys_created_on>
+        <sys_id>dd4fe7f447d7fd1077497116536d4382</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-22 00:18:28</sys_updated_on>
+        <value>{"token_type":"Bearer","access_token":"0581f92154b603dbd2ca2c813809608c52e6a11b","expires_at":1703208122,"expires_in":9585,"refresh_token":"3477bbdcf574d618b0c271aa79e47a0e6a854d48"}
+</value>
+        <variable display_value="Sample payload">d335ac0787523300f917e55936cb0b1d</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_114fe7f447d7fd1077497116536d4377^id=114fe7f447d7fd1077497116536d4377"/>
+    <sys_element_mapping action="delete_multiple" query="id=114fe7f447d7fd1077497116536d4377"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>payload_view</field>
+        <id>114fe7f447d7fd1077497116536d4377</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 23:01:26</sys_created_on>
+        <sys_id>914fe7f447d7fd1077497116536d4382</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 23:01:26</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sample_payload</field>
+        <id>114fe7f447d7fd1077497116536d4377</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 23:01:26</sys_created_on>
+        <sys_id>554fe7f447d7fd1077497116536d4382</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 23:01:26</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_data</field>
+        <id>114fe7f447d7fd1077497116536d4377</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 23:01:26</sys_created_on>
+        <sys_id>194fe7f447d7fd1077497116536d4381</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-22 00:18:28</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value>{{step[c0831d90-22e6-456f-940c-5e0dcc4f4258].tokenstring}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_schema</field>
+        <id>114fe7f447d7fd1077497116536d4377</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 23:01:26</sys_created_on>
+        <sys_id>dd4fe7f447d7fd1077497116536d4381</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 23:01:26</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=114fe7f447d7fd1077497116536d4377"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=114fe7f447d7fd1077497116536d4377^sys_idNOT INd54fe7f447d7fd1077497116536d437b"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDc9118c01099bfd10eb1b230436e61fdf</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>f9b4b1c0474bb55077497116536d4397</scope_name>
+        <serialized_content>{"FlowDesigner:FDc9118c01099bfd10eb1b230436e61fdf":{"access_token":"String","access_token.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"access_token\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"05c2cc7f-cb22-4284-b426-9af8822f9f9d\"}"},"refresh_token":"String","refresh_token.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"refresh_token\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\",\"uiUniqueId\":\"f2956cdd-7f5d-4360-bee0-34b634a781e5\"}"},"expires_at":"String","expires_at.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"expires_at\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"e7b312fc-a35b-491a-ba2a-38690c2977ae\"}"},"token_type":"String","token_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"token_type\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"256b16f2-732e-4c94-a38e-04d30431f41e\"}"},"expires_in":"String","expires_in.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"expires_in\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\",\"uiUniqueId\":\"309a3a3d-d0d7-4a0c-b198-9ad92fb70f77\"}"}},"FlowDesigner:FDc9118c01099bfd10eb1b230436e61fdf.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"root\",\"mandatory\":\"false\",\"uiUniqueId\":\"59480f0a-c75a-47f3-b0a0-20c8fd09e3ca\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDc9118c01099bfd10eb1b230436e61fdf\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-22 00:19:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8d118c01479bfd1077497116536d43df</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-22 01:06:40</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FDc9118c01099bfd10eb1b230436e61fdf,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=59480f0a-c75a-47f3-b0a0-20c8fd09e3ca</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>root</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>root</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="JSON Parser step">114fe7f447d7fd1077497116536d4377</model>
+        <model_id>114fe7f447d7fd1077497116536d4377</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_114fe7f447d7fd1077497116536d4377</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 23:01:26</sys_created_on>
+        <sys_id>d54fe7f447d7fd1077497116536d437b</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-22 00:19:14</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=114fe7f447d7fd1077497116536d4377^sys_idNOT IN94a433f4471bfd1077497116536d4355"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>source_data</input_name>
+        <instance>114fe7f447d7fd1077497116536d4377</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"source_data":{"scriptActive":false}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 23:24:50</sys_created_on>
+        <sys_id>94a433f4471bfd1077497116536d4355</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 23:24:50</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_114fe7f447d7fd1077497116536d4377^sys_idNOT IN994fe7f447d7fd1077497116536d437e"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>root</element>
+        <help/>
+        <hint/>
+        <label>root</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_114fe7f447d7fd1077497116536d4377</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 23:01:26</sys_created_on>
+        <sys_id>994fe7f447d7fd1077497116536d437e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Nighthawks Team" source="x_snc_nighthawks_0">f9b4b1c0474bb55077497116536d4397</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 23:01:26</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Strava Token Request">4439d3b44717fd1077497116536d4381</action>
+        <cid>dba047de-b1b0-4e18-98c3-fa8d98a380ef</cid>
+        <error_handling_type>2</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Log step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Log">a03fea9bc712220061f553c6f09763b1</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-22 01:06:40</sys_created_on>
+        <sys_id>7bebccc547dbfd1077497116536d43bd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-22 01:06:40</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7bebccc547dbfd1077497116536d43bd"/>
+    <sys_element_mapping action="delete_multiple" query="id=7bebccc547dbfd1077497116536d43bd"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>7bebccc547dbfd1077497116536d43bd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-22 01:06:40</sys_created_on>
+        <sys_id>73ebccc547dbfd1077497116536d43c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-22 01:06:40</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_a03fea9bc712220061f553c6f09763b1</table>
+        <value>Here is the value of TokenString: {{step[c0831d90-22e6-456f-940c-5e0dcc4f4258].tokenstring}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=7bebccc547dbfd1077497116536d43bd"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=7bebccc547dbfd1077497116536d43bd"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7bebccc547dbfd1077497116536d43bd"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_7bebccc547dbfd1077497116536d43bd"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Strava Token Request">4439d3b44717fd1077497116536d4381</action>
+        <cid>c0831d90-22e6-456f-940c-5e0dcc4f4258</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 21:29:41</sys_created_on>
+        <sys_id>914a1bb44717fd1077497116536d433e</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-22 01:03:33</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=914a1bb44717fd1077497116536d433e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>914a1bb44717fd1077497116536d433e</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 21:29:41</sys_created_on>
+        <sys_id>e14ad7f84717fd1077497116536d4306</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 21:29:41</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>914a1bb44717fd1077497116536d433e</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 21:29:41</sys_created_on>
+        <sys_id>e94ad7f84717fd1077497116536d4306</sys_id>
+        <sys_mod_count>31</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-22 01:03:33</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+    var refresh_token = '3477bbdcf574d618b0c271aa79e47a0e6a854d48';&#13;
+    var clientID = '43919';&#13;
+    var clientSecret = '9354079ebcc7b64fec4e6f0198ee79a3f96782dc';&#13;
+&#13;
+    // Construct the request body&#13;
+    var requestBody = 'client_id=' + clientID +&#13;
+                      '&amp;client_secret=' + clientSecret +&#13;
+                      '&amp;refresh_token=' + refresh_token +&#13;
+                      '&amp;grant_type=refresh_token';&#13;
+&#13;
+    // Create a REST message&#13;
+    var restMessage = new sn_ws.RESTMessageV2();&#13;
+    restMessage.setHttpMethod('POST');&#13;
+    restMessage.setEndpoint('https://www.strava.com/oauth/token');&#13;
+    restMessage.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');&#13;
+&#13;
+    // Set the constructed request body&#13;
+    restMessage.setRequestBody(requestBody);&#13;
+&#13;
+    // Execute the REST message&#13;
+    var response = restMessage.execute();&#13;
+&#13;
+    var responseBody = response.getBody();&#13;
+    var httpStatus = response.getStatusCode();&#13;
+&#13;
+    if (httpStatus === 200) {&#13;
+        gs.info('Success! Response Body: ' + responseBody); // Log the response body on success&#13;
+        &#13;
+        // Additional logging for debugging&#13;
+        gs.info('TokenString before assignment: ' + outputs.TokenString); // Log the TokenString before assignment&#13;
+        outputs.TokenString = responseBody; // Assign responseBody to TokenString output variable&#13;
+        gs.info('TokenString after assignment: ' + outputs.TokenString); // Log the TokenString after assignment&#13;
+    } else {&#13;
+        gs.error('Error: ' + httpStatus + ' - ' + responseBody); // Log error details&#13;
+        outputs.TokenString = null; // Or handle the error case accordingly&#13;
+    }&#13;
+})(inputs, outputs);&#13;
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_914a1bb44717fd1077497116536d433e^id=914a1bb44717fd1077497116536d433e"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=914a1bb44717fd1077497116536d433e"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=914a1bb44717fd1077497116536d433e"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=914a1bb44717fd1077497116536d433e^sys_idNOT IN45870c0d479bfd1077497116536d437d"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=bf9a5f81-fc3f-4d34-98fb-91ea5efeb444</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>tokenstring</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>TokenString</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">914a1bb44717fd1077497116536d433e</model>
+        <model_id>914a1bb44717fd1077497116536d433e</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_914a1bb44717fd1077497116536d433e</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-22 00:47:21</sys_created_on>
+        <sys_id>45870c0d479bfd1077497116536d437d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-22 00:47:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=914a1bb44717fd1077497116536d433e"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_914a1bb44717fd1077497116536d433e^sys_idNOT IN41870c0d479bfd1077497116536d4381"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>tokenstring</element>
+        <help/>
+        <hint/>
+        <label>TokenString</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_914a1bb44717fd1077497116536d433e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-22 00:47:21</sys_created_on>
+        <sys_id>41870c0d479bfd1077497116536d4381</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Nighthawks Team" source="x_snc_nighthawks_0">f9b4b1c0474bb55077497116536d4397</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-22 00:47:21</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=4439d3b44717fd1077497116536d4381"/>
+    <sys_hub_action_output action="delete_multiple" query="model=4439d3b44717fd1077497116536d4381^sys_idNOT INd13b9f3c4717fd1077497116536d4384,d93b9f3c4717fd1077497116536d4389,eb626b3c4757fd1077497116536d43d6"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=7e16ff53-4021-492c-8ff6-7deddf9f75ea</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Strava Token Request">4439d3b44717fd1077497116536d4381</model>
+        <model_id>4439d3b44717fd1077497116536d4381</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_4439d3b44717fd1077497116536d4381</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 21:33:46</sys_created_on>
+        <sys_id>d13b9f3c4717fd1077497116536d4384</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 22:05:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d13b9f3c4717fd1077497116536d4384"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d13b9f3c4717fd1077497116536d4384"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=f5732f52-1109-4463-80e8-087d0c10e6d9,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Strava Token Request">4439d3b44717fd1077497116536d4381</model>
+        <model_id>4439d3b44717fd1077497116536d4381</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_4439d3b44717fd1077497116536d4381</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 21:33:46</sys_created_on>
+        <sys_id>d93b9f3c4717fd1077497116536d4389</sys_id>
+        <sys_mod_count>131</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-22 01:06:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d93b9f3c4717fd1077497116536d4389"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d93b9f3c4717fd1077497116536d4389"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD8d318041ad9bfd10d812bab272a2eb7c</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>f9b4b1c0474bb55077497116536d4397</scope_name>
+        <serialized_content>{"FlowDesigner:FD8d318041ad9bfd10d812bab272a2eb7c":{"access_token":"String","access_token.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"access_token\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"05c2cc7f-cb22-4284-b426-9af8822f9f9d\"}"},"refresh_token":"String","refresh_token.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"refresh_token\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\",\"uiUniqueId\":\"f2956cdd-7f5d-4360-bee0-34b634a781e5\"}"},"expires_at":"String","expires_at.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"expires_at\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"e7b312fc-a35b-491a-ba2a-38690c2977ae\"}"},"token_type":"String","token_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"token_type\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"256b16f2-732e-4c94-a38e-04d30431f41e\"}"},"expires_in":"String","expires_in.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"expires_in\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\",\"uiUniqueId\":\"309a3a3d-d0d7-4a0c-b198-9ad92fb70f77\"}"}},"FlowDesigner:FD8d318041ad9bfd10d812bab272a2eb7c.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"01dc051f-fe39-4ae2-942b-809426d7e3d2\",\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"variable\",\"mandatory\":\"false\",\"uiUniqueId\":\"d1c986f6-3379-4383-b12d-e810c19e232a\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD8d318041ad9bfd10d812bab272a2eb7c\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"59480f0a-c75a-47f3-b0a0-20c8fd09e3ca\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-22 00:19:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>41318041479bfd1077497116536d437d</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-22 01:06:40</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD8d318041ad9bfd10d812bab272a2eb7c,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,sourceId=01dc051f-fe39-4ae2-942b-809426d7e3d2,sourceType=step,sourceUiUniqueId=59480f0a-c75a-47f3-b0a0-20c8fd09e3ca,uiType=object,uiTypeLabel=Object,uiUniqueId=d1c986f6-3379-4383-b12d-e810c19e232a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>variable</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Strava Token Request">4439d3b44717fd1077497116536d4381</model>
+        <model_id>4439d3b44717fd1077497116536d4381</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_4439d3b44717fd1077497116536d4381</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 22:05:20</sys_created_on>
+        <sys_id>eb626b3c4757fd1077497116536d43d6</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-22 00:19:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=eb626b3c4757fd1077497116536d43d6"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=eb626b3c4757fd1077497116536d43d6"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=4439d3b44717fd1077497116536d4381"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=4439d3b44717fd1077497116536d4381^sys_idNOT IN614ad7f84717fd1077497116536d430c"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Strava Token Request">4439d3b44717fd1077497116536d4381</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 21:29:41</sys_created_on>
+        <sys_id>614ad7f84717fd1077497116536d430c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 21:29:41</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=614ad7f84717fd1077497116536d430c"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_4439d3b44717fd1077497116536d4381"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_4439d3b44717fd1077497116536d4381"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_4439d3b44717fd1077497116536d4381^sys_idNOT IN1d3b9f3c4717fd1077497116536d4388,d13b9f3c4717fd1077497116536d438f,e3626b3c4757fd1077497116536d43da"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_4439d3b44717fd1077497116536d4381</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 21:33:46</sys_created_on>
+        <sys_id>1d3b9f3c4717fd1077497116536d4388</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Nighthawks Team" source="x_snc_nighthawks_0">f9b4b1c0474bb55077497116536d4397</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 21:33:46</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_4439d3b44717fd1077497116536d4381</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 21:33:46</sys_created_on>
+        <sys_id>d13b9f3c4717fd1077497116536d438f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Nighthawks Team" source="x_snc_nighthawks_0">f9b4b1c0474bb55077497116536d4397</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 21:33:46</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>variable</element>
+        <help/>
+        <hint/>
+        <label>variable</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_4439d3b44717fd1077497116536d4381</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 22:05:20</sys_created_on>
+        <sys_id>e3626b3c4757fd1077497116536d43da</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Nighthawks Team" source="x_snc_nighthawks_0">f9b4b1c0474bb55077497116536d4397</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-22 00:08:41</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_4439d3b44717fd1077497116536d4381"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=4439d3b44717fd1077497116536d4381"/>
+</record_update>

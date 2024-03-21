@@ -1,0 +1,1318 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=68000,viewActivatedIn=naturalLanguage</attributes>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>4a36156a47d77d5077497116536d43d0</copied_from>
+        <copied_from_name>Strava Activity Import (Data Str</copied_from_name>
+        <description/>
+        <internal_name>strava_activity_import_data_stream_v3</internal_name>
+        <label_cache>[{"name":"13f284e1-249f-4dbe-ace5-04705afaee5c.variable.sport_type","label":"1 - Get Nighthawk Activity Data Stream➛Activity➛Sport Type","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"13f284e1-249f-4dbe-ace5-04705afaee5c.variable.type","label":"1 - Get Nighthawk Activity Data Stream➛Activity➛Type","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"13f284e1-249f-4dbe-ace5-04705afaee5c.variable.elapsed_time","label":"1 - Get Nighthawk Activity Data Stream➛Activity➛Elapsed Time","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"3b046200-cee7-45a2-afd3-4286f40a0a17.Record.u_athlete","label":"4 - Look Up Record➛Athlete Record➛Athlete?","reference":"","reference_display":"Athlete?","type":"boolean","base_type":"boolean","parent_table_name":"x_snc_nighthawks_0_athlete","column_name":"u_athlete"},{"name":"3b046200-cee7-45a2-afd3-4286f40a0a17.error_message","label":"4 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"3b046200-cee7-45a2-afd3-4286f40a0a17.Record","label":"4 - Look Up Record➛Athlete Record","reference":"x_snc_nighthawks_0_athlete","reference_display":"Athlete","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.athlete_name","label":"Flow Variables➛Athlete Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"fd40ed9f-f0ff-4b45-a22f-2b1600436ed1"}},{"name":"flow_variable.random_number","label":"Flow Variables➛Random Number","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"1640096b-e9f5-423f-ac82-6fd27e73c852"}},{"name":"3b046200-cee7-45a2-afd3-4286f40a0a17.status","label":"4 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"13f284e1-249f-4dbe-ace5-04705afaee5c.variable.firstname","label":"1 - Get Nighthawk Activity Data Stream➛Activity➛First Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"13f284e1-249f-4dbe-ace5-04705afaee5c.variable.lastname","label":"1 - Get Nighthawk Activity Data Stream➛Activity➛Last Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"13f284e1-249f-4dbe-ace5-04705afaee5c.variable.name","label":"1 - Get Nighthawk Activity Data Stream➛Activity➛Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"13f284e1-249f-4dbe-ace5-04705afaee5c.variable.distance","label":"1 - Get Nighthawk Activity Data Stream➛Activity➛Distance","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"13f284e1-249f-4dbe-ace5-04705afaee5c.variable.total_elevation_gain","label":"1 - Get Nighthawk Activity Data Stream➛Activity➛Total Elevation Gain","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"13f284e1-249f-4dbe-ace5-04705afaee5c.variable.moving_time","label":"1 - Get Nighthawk Activity Data Stream➛Activity➛Moving Time","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"flow_variable.uniqueid","label":"Flow Variables➛UniqueID","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"7724dafc-f27d-408e-bf14-acc176a9807c"}},{"name":"3b046200-cee7-45a2-afd3-4286f40a0a17.Record.name","label":"4 - Look Up Record➛Athlete Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_snc_nighthawks_0_athlete","column_name":"name"},{"name":"1fc2e5b6-ec23-4212-8433-b6362fa95902.__action_status__.message","label":"2 - Create a UniqueID➛Action Status➛Message","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"1fc2e5b6-ec23-4212-8433-b6362fa95902.uniqueid","label":"2 - Create a UniqueID➛Unique ID","reference_display":"Unique ID","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"27551e6b-b792-42eb-b3d2-0e667c17573d"}},{"name":"1fc2e5b6-ec23-4212-8433-b6362fa95902.variable","label":"2 - Create a UniqueID➛UniqueID","reference_display":"UniqueID","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"92c9232e-9254-48c2-a748-2c964a385e37"}}]</label_cache>
+        <master_snapshot>9283ae324797319077497116536d43e3</master_snapshot>
+        <name>Strava Activity Import (Data Stream) v3</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>7683ee324797319077497116536d43fa</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:37:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2d4326324797319077497116536d4392</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Strava Activity Import (Data Stream) v3</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Nighthawks Team" source="x_snc_nighthawks_0">f9b4b1c0474bb55077497116536d4397</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_update_name>sys_hub_flow_2d4326324797319077497116536d4392</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:42:59</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=2d4326324797319077497116536d4392"/>
+    <sys_variable_value action="delete_multiple" query="document_key=2d4326324797319077497116536d4392"/>
+    <sys_flow_timer_trigger action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <day_of_month>1</day_of_month>
+        <day_of_week/>
+        <name/>
+        <run_period/>
+        <run_start>2023-12-27 22:38:25</run_start>
+        <sys_class_name>sys_flow_timer_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:38:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7683ee324797319077497116536d43fa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:43:00</sys_updated_on>
+        <time>1970-01-02 06:00:00</time>
+        <timer_type>11</timer_type>
+    </sys_flow_timer_trigger>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=2d4326324797319077497116536d4392"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=2d4326324797319077497116536d4392^sys_idNOT IN714366324797319077497116536d430e"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Strava Activity Import (Data Stream) v3">2d4326324797319077497116536d4392</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:37:15</sys_created_on>
+        <sys_id>714366324797319077497116536d430e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:38:25</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=714366324797319077497116536d430e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>714366324797319077497116536d430e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:37:15</sys_created_on>
+        <sys_id>f14366324797319077497116536d430f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:37:15</sys_updated_on>
+        <value>1970-01-01 22:00:00</value>
+        <variable display_value="Time">3ad4edc0c32222002841b63b12d3aee5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_89142dc0c32222002841b63b12d3ae8a^id=714366324797319077497116536d430e"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=2d4326324797319077497116536d4392"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=2d4326324797319077497116536d4392^sys_idNOT IN2d4326324797319077497116536d4394"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>2d4326324797319077497116536d4392</id>
+        <name>Strava Activity Import (Data Stream) v3</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:37:14</sys_created_on>
+        <sys_id>2d4326324797319077497116536d4394</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:37:14</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=2d4326324797319077497116536d4394"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=2d4326324797319077497116536d4392"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=2d4326324797319077497116536d4392"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2d4326324797319077497116536d4392"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=2d4326324797319077497116536d4392^sys_idNOT IN6d4326324797319077497116536d43f3,7d4326324797319077497116536d43fb,f14366324797319077497116536d430c,fd4366324797319077497116536d4304"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Get Nighthawk Activity Data Stream">fd2798554753b15077497116536d43f0</action_type>
+        <action_type_parent display_value="Get Nighthawk Activity Data Stream">734e801947df715077497116536d433d</action_type_parent>
+        <attributes/>
+        <comment>Gets the last 60 most recent activities</comment>
+        <display_text/>
+        <flow display_value="Strava Activity Import (Data Stream) v3">2d4326324797319077497116536d4392</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:37:15</sys_created_on>
+        <sys_id>6d4326324797319077497116536d43f3</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:38:25</sys_updated_on>
+        <ui_id>13f284e1-249f-4dbe-ace5-04705afaee5c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6d4326324797319077497116536d43f3"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6d4326324797319077497116536d43f3"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6d4326324797319077497116536d43f3"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create a UniqueID">aff48551471bb15077497116536d4361</action_type>
+        <action_type_parent display_value="Create a UniqueID">9d3c781147d7b15077497116536d4363</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Strava Activity Import (Data Stream) v3">2d4326324797319077497116536d4392</flow>
+        <order>2</order>
+        <parent_ui_id>13f284e1-249f-4dbe-ace5-04705afaee5c</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:37:15</sys_created_on>
+        <sys_id>7d4326324797319077497116536d43fb</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:38:25</sys_updated_on>
+        <ui_id>1fc2e5b6-ec23-4212-8433-b6362fa95902</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7d4326324797319077497116536d43fb"/>
+    <sys_element_mapping action="delete_multiple" query="id=7d4326324797319077497116536d43fb"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>distance</field>
+        <id>7d4326324797319077497116536d43fb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:37:15</sys_created_on>
+        <sys_id>b14326324797319077497116536d43fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:37:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_aff48551471bb15077497116536d4361</table>
+        <value>{{13f284e1-249f-4dbe-ace5-04705afaee5c.variable.distance}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>moving_time</field>
+        <id>7d4326324797319077497116536d43fb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:37:15</sys_created_on>
+        <sys_id>394326324797319077497116536d43fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:37:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_aff48551471bb15077497116536d4361</table>
+        <value>{{13f284e1-249f-4dbe-ace5-04705afaee5c.variable.moving_time}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>total_elevation_gain</field>
+        <id>7d4326324797319077497116536d43fb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:37:15</sys_created_on>
+        <sys_id>754326324797319077497116536d43fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:37:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_aff48551471bb15077497116536d4361</table>
+        <value>{{13f284e1-249f-4dbe-ace5-04705afaee5c.variable.total_elevation_gain}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7d4326324797319077497116536d43fb"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7d4326324797319077497116536d43fb"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create or Update Record">ab575ae253b3230034c6ddeeff7b12f1</action_type>
+        <action_type_parent display_value="Create or Update Record">e057d2e253b3230034c6ddeeff7b1261</action_type_parent>
+        <attributes/>
+        <comment>Add the activity if it doesnt already exist.</comment>
+        <display_text/>
+        <flow display_value="Strava Activity Import (Data Stream) v3">2d4326324797319077497116536d4392</flow>
+        <order>5</order>
+        <parent_ui_id>13f284e1-249f-4dbe-ace5-04705afaee5c</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:37:15</sys_created_on>
+        <sys_id>f14366324797319077497116536d430c</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:38:25</sys_updated_on>
+        <ui_id>f2d0e08e-0f89-4d39-8685-d3dc48aa8361</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f14366324797319077497116536d430c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f14366324797319077497116536d430c</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:37:15</sys_created_on>
+        <sys_id>f94366324797319077497116536d430d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:37:15</sys_updated_on>
+        <value>x_snc_nighthawks_0_team_activity</value>
+        <variable display_value="Table Name">27575ae253b3230034c6ddeeff7b12f4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f14366324797319077497116536d430c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>fields</field>
+        <id>f14366324797319077497116536d430c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:37:15</sys_created_on>
+        <sys_id>b54366324797319077497116536d430d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:38:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1</table>
+        <value>athlete={{3b046200-cee7-45a2-afd3-4286f40a0a17.Record}}^name={{13f284e1-249f-4dbe-ace5-04705afaee5c.variable.name}}^distance={{fd_transform:71e9cf17-9954-4915-883d-86dc769a5619}}^total_elevation_gain={{fd_transform:cd6239fd-daf5-4e94-9c19-dbcaa8c3cae3}}^moving_time={{fd_transform:9c819c6a-7306-4175-8b01-523458e02af5}}^type={{13f284e1-249f-4dbe-ace5-04705afaee5c.variable.type}}^sport_type={{13f284e1-249f-4dbe-ace5-04705afaee5c.variable.sport_type}}^activity_id={{1fc2e5b6-ec23-4212-8433-b6362fa95902.variable}}^coalesce_fields=activity_id</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>f14366324797319077497116536d430c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:37:15</sys_created_on>
+        <sys_id>794366324797319077497116536d430d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:37:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f14366324797319077497116536d430c"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f14366324797319077497116536d430c"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Strava Activity Import (Data Stream) v3">2d4326324797319077497116536d4392</flow>
+        <order>4</order>
+        <parent_ui_id>13f284e1-249f-4dbe-ace5-04705afaee5c</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:37:15</sys_created_on>
+        <sys_id>fd4366324797319077497116536d4304</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:38:25</sys_updated_on>
+        <ui_id>3b046200-cee7-45a2-afd3-4286f40a0a17</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=fd4366324797319077497116536d4304"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>fd4366324797319077497116536d4304</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:37:15</sys_created_on>
+        <sys_id>fd4366324797319077497116536d4306</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:37:15</sys_updated_on>
+        <value>x_snc_nighthawks_0_athlete</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=fd4366324797319077497116536d4304"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>fd4366324797319077497116536d4304</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:37:15</sys_created_on>
+        <sys_id>b94366324797319077497116536d4306</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:37:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>name={{flow_variable.athlete_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>fd4366324797319077497116536d4304</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:37:15</sys_created_on>
+        <sys_id>7d4366324797319077497116536d4306</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:37:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=fd4366324797319077497116536d4304"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=fd4366324797319077497116536d4304"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=2d4326324797319077497116536d4392"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=2d4326324797319077497116536d4392^sys_idNOT IN654326324797319077497116536d43db"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">f2e668f8474b3d5077497116536d43d4</block>
+        <comment>Creates the athlete name from first &amp; last</comment>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Strava Activity Import (Data Stream) v3">2d4326324797319077497116536d4392</flow>
+        <flow_variable/>
+        <flow_variable/>
+        <flow_variables_assigned>athlete_name</flow_variables_assigned>
+        <inputs/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>13f284e1-249f-4dbe-ace5-04705afaee5c</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:37:15</sys_created_on>
+        <sys_id>654326324797319077497116536d43db</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:38:25</sys_updated_on>
+        <ui_id>bc4605c1-ea2b-4edd-a57b-540adfccce1f</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=654326324797319077497116536d43db"/>
+    <sys_element_mapping action="delete_multiple" query="id=654326324797319077497116536d43db"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>athlete_name</field>
+        <id>654326324797319077497116536d43db</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:37:15</sys_created_on>
+        <sys_id>2d4326324797319077497116536d43de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:37:15</sys_updated_on>
+        <table>var__m_sys_hub_flow_variable_2d4326324797319077497116536d4392</table>
+        <value>{{13f284e1-249f-4dbe-ace5-04705afaee5c.variable.firstname}} {{13f284e1-249f-4dbe-ace5-04705afaee5c.variable.lastname}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>uniqueid</field>
+        <id>654326324797319077497116536d43db</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:37:15</sys_created_on>
+        <sys_id>e14326324797319077497116536d43df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:37:15</sys_updated_on>
+        <table>var__m_sys_hub_flow_variable_2d4326324797319077497116536d4392</table>
+        <value>{{1fc2e5b6-ec23-4212-8433-b6362fa95902.variable}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=654326324797319077497116536d43db"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=654326324797319077497116536d43db"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=2d4326324797319077497116536d4392^sys_idNOT IN754366324797319077497116536d4318,794366324797319077497116536d4318,7d4366324797319077497116536d4318,f54366324797319077497116536d4318,f94366324797319077497116536d4318,fd4366324797319077497116536d4317"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>2d4326324797319077497116536d4392</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{13f284e1-249f-4dbe-ace5-04705afaee5c.variable.moving_time}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:37:15</sys_created_on>
+        <sys_id>754366324797319077497116536d4318</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:37:15</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>9c819c6a-7306-4175-8b01-523458e02af5</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>2d4326324797319077497116536d4392</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>9c819c6a-7306-4175-8b01-523458e02af5</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:37:15</sys_created_on>
+        <sys_id>794366324797319077497116536d4318</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:37:15</sys_updated_on>
+        <transform_compositions>[{"id":"ec7a7362c303201027d44077d840dd87","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"number","label":"Number","order":0,"attributes":{},"value":"3600","type":"int","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="divide">295abf22c303201027d44077d840dd54</transform_definition_id>
+        <ui_id>eb0c73a2-96ec-4c05-9cd1-a65d7da22184</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>2d4326324797319077497116536d4392</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>cd6239fd-daf5-4e94-9c19-dbcaa8c3cae3</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:37:15</sys_created_on>
+        <sys_id>7d4366324797319077497116536d4318</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:37:15</sys_updated_on>
+        <transform_compositions>[{"id":"ec7a7362c303201027d44077d840dd87","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"number","label":"Number","order":0,"attributes":{},"value":"0.3048","type":"int","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="divide">295abf22c303201027d44077d840dd54</transform_definition_id>
+        <ui_id>029ee27f-06db-4214-be2b-9eeff0f6693c</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>2d4326324797319077497116536d4392</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>71e9cf17-9954-4915-883d-86dc769a5619</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:37:15</sys_created_on>
+        <sys_id>f54366324797319077497116536d4318</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:37:15</sys_updated_on>
+        <transform_compositions>[{"id":"ec7a7362c303201027d44077d840dd87","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"number","label":"Number","order":0,"attributes":{},"value":"1609.34","type":"int","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="divide">295abf22c303201027d44077d840dd54</transform_definition_id>
+        <ui_id>233a0a8e-1780-4abe-8687-3184cefb080a</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>2d4326324797319077497116536d4392</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{13f284e1-249f-4dbe-ace5-04705afaee5c.variable.total_elevation_gain}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:37:15</sys_created_on>
+        <sys_id>f94366324797319077497116536d4318</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:37:15</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>cd6239fd-daf5-4e94-9c19-dbcaa8c3cae3</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>2d4326324797319077497116536d4392</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{13f284e1-249f-4dbe-ace5-04705afaee5c.variable.distance}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:37:15</sys_created_on>
+        <sys_id>fd4366324797319077497116536d4317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:37:15</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>71e9cf17-9954-4915-883d-86dc769a5619</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=2d4326324797319077497116536d4392^sys_idNOT IN654326324797319077497116536d43c9,e94326324797319077497116536d43c2"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=7724dafc-f27d-408e-bf14-acc176a9807c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>uniqueid</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>UniqueID</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Strava Activity Import (Data Stream) v3">2d4326324797319077497116536d4392</model>
+        <model_id>2d4326324797319077497116536d4392</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_2d4326324797319077497116536d4392</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:37:15</sys_created_on>
+        <sys_id>654326324797319077497116536d43c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:37:15</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=fd40ed9f-f0ff-4b45-a22f-2b1600436ed1</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>athlete_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Athlete Name</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Strava Activity Import (Data Stream) v3">2d4326324797319077497116536d4392</model>
+        <model_id>2d4326324797319077497116536d4392</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_2d4326324797319077497116536d4392</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:37:14</sys_created_on>
+        <sys_id>e94326324797319077497116536d43c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:37:14</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_2d4326324797319077497116536d4392"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_2d4326324797319077497116536d4392"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_2d4326324797319077497116536d4392"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_2d4326324797319077497116536d4392"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=394000,viewActivatedIn=naturalLanguage</attributes>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>4a36156a47d77d5077497116536d43d0</copied_from>
+        <copied_from_name/>
+        <description/>
+        <internal_name>strava_activity_import_data_stream_v3</internal_name>
+        <label_cache>[{"name":"13f284e1-249f-4dbe-ace5-04705afaee5c.variable.sport_type","label":"1 - Get Nighthawk Activity Data Stream➛Activity➛Sport Type","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"13f284e1-249f-4dbe-ace5-04705afaee5c.variable.type","label":"1 - Get Nighthawk Activity Data Stream➛Activity➛Type","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"13f284e1-249f-4dbe-ace5-04705afaee5c.variable.elapsed_time","label":"1 - Get Nighthawk Activity Data Stream➛Activity➛Elapsed Time","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"3b046200-cee7-45a2-afd3-4286f40a0a17.Record.u_athlete","label":"4 - Look Up Record➛Athlete Record➛Athlete?","reference":"","reference_display":"Athlete?","type":"boolean","base_type":"boolean","parent_table_name":"x_snc_nighthawks_0_athlete","column_name":"u_athlete"},{"name":"3b046200-cee7-45a2-afd3-4286f40a0a17.error_message","label":"4 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"3b046200-cee7-45a2-afd3-4286f40a0a17.Record","label":"4 - Look Up Record➛Athlete Record","reference":"x_snc_nighthawks_0_athlete","reference_display":"Athlete","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.athlete_name","label":"Flow Variables➛Athlete Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"fd40ed9f-f0ff-4b45-a22f-2b1600436ed1"}},{"name":"flow_variable.random_number","label":"Flow Variables➛Random Number","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"1640096b-e9f5-423f-ac82-6fd27e73c852"}},{"name":"3b046200-cee7-45a2-afd3-4286f40a0a17.status","label":"4 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"13f284e1-249f-4dbe-ace5-04705afaee5c.variable.firstname","label":"1 - Get Nighthawk Activity Data Stream➛Activity➛First Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"13f284e1-249f-4dbe-ace5-04705afaee5c.variable.lastname","label":"1 - Get Nighthawk Activity Data Stream➛Activity➛Last Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"13f284e1-249f-4dbe-ace5-04705afaee5c.variable.name","label":"1 - Get Nighthawk Activity Data Stream➛Activity➛Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"13f284e1-249f-4dbe-ace5-04705afaee5c.variable.distance","label":"1 - Get Nighthawk Activity Data Stream➛Activity➛Distance","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"13f284e1-249f-4dbe-ace5-04705afaee5c.variable.total_elevation_gain","label":"1 - Get Nighthawk Activity Data Stream➛Activity➛Total Elevation Gain","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"13f284e1-249f-4dbe-ace5-04705afaee5c.variable.moving_time","label":"1 - Get Nighthawk Activity Data Stream➛Activity➛Moving Time","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"flow_variable.uniqueid","label":"Flow Variables➛UniqueID","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"7724dafc-f27d-408e-bf14-acc176a9807c"}},{"name":"3b046200-cee7-45a2-afd3-4286f40a0a17.Record.name","label":"4 - Look Up Record➛Athlete Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_snc_nighthawks_0_athlete","column_name":"name"},{"name":"1fc2e5b6-ec23-4212-8433-b6362fa95902.__action_status__.message","label":"2 - Create a UniqueID➛Action Status➛Message","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"1fc2e5b6-ec23-4212-8433-b6362fa95902.uniqueid","label":"2 - Create a UniqueID➛Unique ID","reference_display":"Unique ID","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"27551e6b-b792-42eb-b3d2-0e667c17573d"}},{"name":"1fc2e5b6-ec23-4212-8433-b6362fa95902.variable","label":"2 - Create a UniqueID➛UniqueID","reference_display":"UniqueID","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"92c9232e-9254-48c2-a748-2c964a385e37"}}]</label_cache>
+        <master>true</master>
+        <name>Strava Activity Import (Data Stream) v3</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Strava Activity Import (Data Stream) v3">2d4326324797319077497116536d4392</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:38:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9283ae324797319077497116536d43e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:38:23</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=9283ae324797319077497116536d43e3"/>
+    <sys_variable_value action="delete_multiple" query="document_key=9283ae324797319077497116536d43e3"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=9283ae324797319077497116536d43e3^sys_idNOT INae83ee324797319077497116536d4325"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Strava Activity Import (Data Stream) v3">9283ae324797319077497116536d43e3</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:38:24</sys_created_on>
+        <sys_id>ae83ee324797319077497116536d4325</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:38:25</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ae83ee324797319077497116536d4325"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>ae83ee324797319077497116536d4325</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:38:24</sys_created_on>
+        <sys_id>2e83ee324797319077497116536d4326</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:38:24</sys_updated_on>
+        <value>1970-01-01 22:00:00</value>
+        <variable display_value="Time">3ad4edc0c32222002841b63b12d3aee5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_89142dc0c32222002841b63b12d3ae8a^id=ae83ee324797319077497116536d4325"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=9283ae324797319077497116536d43e3"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=9283ae324797319077497116536d43e3^sys_idNOT IN5283ae324797319077497116536d43e4"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>9283ae324797319077497116536d43e3</id>
+        <name>Strava Activity Import (Data Stream) v3</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:38:23</sys_created_on>
+        <sys_id>5283ae324797319077497116536d43e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:38:23</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=5283ae324797319077497116536d43e4"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=9283ae324797319077497116536d43e3"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=9283ae324797319077497116536d43e3"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9283ae324797319077497116536d43e3"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=9283ae324797319077497116536d43e3^sys_idNOT IN1683ee324797319077497116536d4313,1e83ee324797319077497116536d431c,a683ee324797319077497116536d4324,d683ee324797319077497116536d430b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create a UniqueID">aff48551471bb15077497116536d4361</action_type>
+        <action_type_parent display_value="Create a UniqueID">9d3c781147d7b15077497116536d4363</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Strava Activity Import (Data Stream) v3">9283ae324797319077497116536d43e3</flow>
+        <order>2</order>
+        <parent_ui_id>13f284e1-249f-4dbe-ace5-04705afaee5c</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:38:23</sys_created_on>
+        <sys_id>1683ee324797319077497116536d4313</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:38:23</sys_updated_on>
+        <ui_id>1fc2e5b6-ec23-4212-8433-b6362fa95902</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1683ee324797319077497116536d4313"/>
+    <sys_element_mapping action="delete_multiple" query="id=1683ee324797319077497116536d4313"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>distance</field>
+        <id>1683ee324797319077497116536d4313</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:38:23</sys_created_on>
+        <sys_id>5a83ee324797319077497116536d4314</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:38:23</sys_updated_on>
+        <table>var__m_sys_hub_action_input_aff48551471bb15077497116536d4361</table>
+        <value>{{13f284e1-249f-4dbe-ace5-04705afaee5c.variable.distance}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>moving_time</field>
+        <id>1683ee324797319077497116536d4313</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:38:23</sys_created_on>
+        <sys_id>de83ee324797319077497116536d4314</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:38:23</sys_updated_on>
+        <table>var__m_sys_hub_action_input_aff48551471bb15077497116536d4361</table>
+        <value>{{13f284e1-249f-4dbe-ace5-04705afaee5c.variable.moving_time}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>total_elevation_gain</field>
+        <id>1683ee324797319077497116536d4313</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:38:23</sys_created_on>
+        <sys_id>1e83ee324797319077497116536d4314</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:38:23</sys_updated_on>
+        <table>var__m_sys_hub_action_input_aff48551471bb15077497116536d4361</table>
+        <value>{{13f284e1-249f-4dbe-ace5-04705afaee5c.variable.total_elevation_gain}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1683ee324797319077497116536d4313"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1683ee324797319077497116536d4313"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Strava Activity Import (Data Stream) v3">9283ae324797319077497116536d43e3</flow>
+        <order>4</order>
+        <parent_ui_id>13f284e1-249f-4dbe-ace5-04705afaee5c</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:38:23</sys_created_on>
+        <sys_id>1e83ee324797319077497116536d431c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:38:24</sys_updated_on>
+        <ui_id>3b046200-cee7-45a2-afd3-4286f40a0a17</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1e83ee324797319077497116536d431c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1e83ee324797319077497116536d431c</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:38:24</sys_created_on>
+        <sys_id>1e83ee324797319077497116536d431e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:38:24</sys_updated_on>
+        <value>x_snc_nighthawks_0_athlete</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=1e83ee324797319077497116536d431c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>1e83ee324797319077497116536d431c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:38:24</sys_created_on>
+        <sys_id>d683ee324797319077497116536d431e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:38:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>name={{flow_variable.athlete_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>1e83ee324797319077497116536d431c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:38:24</sys_created_on>
+        <sys_id>9a83ee324797319077497116536d431e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:38:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1e83ee324797319077497116536d431c"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1e83ee324797319077497116536d431c"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create or Update Record">ab575ae253b3230034c6ddeeff7b12f1</action_type>
+        <action_type_parent display_value="Create or Update Record">e057d2e253b3230034c6ddeeff7b1261</action_type_parent>
+        <attributes/>
+        <comment>Add the activity if it doesnt already exist.</comment>
+        <display_text/>
+        <flow display_value="Strava Activity Import (Data Stream) v3">9283ae324797319077497116536d43e3</flow>
+        <order>5</order>
+        <parent_ui_id>13f284e1-249f-4dbe-ace5-04705afaee5c</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:38:24</sys_created_on>
+        <sys_id>a683ee324797319077497116536d4324</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:38:24</sys_updated_on>
+        <ui_id>f2d0e08e-0f89-4d39-8685-d3dc48aa8361</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a683ee324797319077497116536d4324"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a683ee324797319077497116536d4324</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:38:24</sys_created_on>
+        <sys_id>aa83ee324797319077497116536d4325</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:38:24</sys_updated_on>
+        <value>x_snc_nighthawks_0_team_activity</value>
+        <variable display_value="Table Name">27575ae253b3230034c6ddeeff7b12f4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a683ee324797319077497116536d4324"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>fields</field>
+        <id>a683ee324797319077497116536d4324</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:38:24</sys_created_on>
+        <sys_id>6683ee324797319077497116536d4325</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:38:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1</table>
+        <value>athlete={{3b046200-cee7-45a2-afd3-4286f40a0a17.Record}}^name={{13f284e1-249f-4dbe-ace5-04705afaee5c.variable.name}}^distance={{fd_transform:71e9cf17-9954-4915-883d-86dc769a5619}}^total_elevation_gain={{fd_transform:cd6239fd-daf5-4e94-9c19-dbcaa8c3cae3}}^moving_time={{fd_transform:9c819c6a-7306-4175-8b01-523458e02af5}}^type={{13f284e1-249f-4dbe-ace5-04705afaee5c.variable.type}}^sport_type={{13f284e1-249f-4dbe-ace5-04705afaee5c.variable.sport_type}}^activity_id={{1fc2e5b6-ec23-4212-8433-b6362fa95902.variable}}^coalesce_fields=activity_id</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>a683ee324797319077497116536d4324</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:38:24</sys_created_on>
+        <sys_id>2a83ee324797319077497116536d4325</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:38:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a683ee324797319077497116536d4324"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a683ee324797319077497116536d4324"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Get Nighthawk Activity Data Stream">fd2798554753b15077497116536d43f0</action_type>
+        <action_type_parent display_value="Get Nighthawk Activity Data Stream">734e801947df715077497116536d433d</action_type_parent>
+        <attributes/>
+        <comment>Gets the last 60 most recent activities</comment>
+        <display_text/>
+        <flow display_value="Strava Activity Import (Data Stream) v3">9283ae324797319077497116536d43e3</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:38:23</sys_created_on>
+        <sys_id>d683ee324797319077497116536d430b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:38:23</sys_updated_on>
+        <ui_id>13f284e1-249f-4dbe-ace5-04705afaee5c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d683ee324797319077497116536d430b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d683ee324797319077497116536d430b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d683ee324797319077497116536d430b"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=9283ae324797319077497116536d43e3"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=9283ae324797319077497116536d43e3^sys_idNOT IN5683ae324797319077497116536d43f3"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">f2e668f8474b3d5077497116536d43d4</block>
+        <comment>Creates the athlete name from first &amp; last</comment>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Strava Activity Import (Data Stream) v3">9283ae324797319077497116536d43e3</flow>
+        <flow_variable/>
+        <flow_variable/>
+        <flow_variables_assigned>athlete_name</flow_variables_assigned>
+        <inputs/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>13f284e1-249f-4dbe-ace5-04705afaee5c</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:38:23</sys_created_on>
+        <sys_id>5683ae324797319077497116536d43f3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:38:23</sys_updated_on>
+        <ui_id>bc4605c1-ea2b-4edd-a57b-540adfccce1f</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=5683ae324797319077497116536d43f3"/>
+    <sys_element_mapping action="delete_multiple" query="id=5683ae324797319077497116536d43f3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>athlete_name</field>
+        <id>5683ae324797319077497116536d43f3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:38:23</sys_created_on>
+        <sys_id>9283ae324797319077497116536d43f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:38:23</sys_updated_on>
+        <table>var__m_sys_hub_flow_variable_9283ae324797319077497116536d43e3</table>
+        <value>{{13f284e1-249f-4dbe-ace5-04705afaee5c.variable.firstname}} {{13f284e1-249f-4dbe-ace5-04705afaee5c.variable.lastname}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=5683ae324797319077497116536d43f3"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5683ae324797319077497116536d43f3"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=9283ae324797319077497116536d43e3^sys_idNOT IN2283ee324797319077497116536d434d,2683ee324797319077497116536d434d,2e83ee324797319077497116536d434c,a283ee324797319077497116536d434d,a683ee324797319077497116536d434c,ae83ee324797319077497116536d434c"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>9283ae324797319077497116536d43e3</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>9c819c6a-7306-4175-8b01-523458e02af5</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:38:24</sys_created_on>
+        <sys_id>2283ee324797319077497116536d434d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:38:24</sys_updated_on>
+        <transform_compositions>[{"id":"ec7a7362c303201027d44077d840dd87","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"number","label":"Number","order":0,"attributes":{},"value":"3600","type":"int","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="divide">295abf22c303201027d44077d840dd54</transform_definition_id>
+        <ui_id>eb0c73a2-96ec-4c05-9cd1-a65d7da22184</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>9283ae324797319077497116536d43e3</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>cd6239fd-daf5-4e94-9c19-dbcaa8c3cae3</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:38:24</sys_created_on>
+        <sys_id>2683ee324797319077497116536d434d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:38:24</sys_updated_on>
+        <transform_compositions>[{"id":"ec7a7362c303201027d44077d840dd87","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"number","label":"Number","order":0,"attributes":{},"value":"0.3048","type":"int","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="divide">295abf22c303201027d44077d840dd54</transform_definition_id>
+        <ui_id>029ee27f-06db-4214-be2b-9eeff0f6693c</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>9283ae324797319077497116536d43e3</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{13f284e1-249f-4dbe-ace5-04705afaee5c.variable.moving_time}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:38:24</sys_created_on>
+        <sys_id>2e83ee324797319077497116536d434c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:38:24</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>9c819c6a-7306-4175-8b01-523458e02af5</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>9283ae324797319077497116536d43e3</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{13f284e1-249f-4dbe-ace5-04705afaee5c.variable.total_elevation_gain}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:38:24</sys_created_on>
+        <sys_id>a283ee324797319077497116536d434d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:38:24</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>cd6239fd-daf5-4e94-9c19-dbcaa8c3cae3</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>9283ae324797319077497116536d43e3</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{13f284e1-249f-4dbe-ace5-04705afaee5c.variable.distance}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:38:24</sys_created_on>
+        <sys_id>a683ee324797319077497116536d434c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:38:24</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>71e9cf17-9954-4915-883d-86dc769a5619</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>9283ae324797319077497116536d43e3</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>71e9cf17-9954-4915-883d-86dc769a5619</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:38:24</sys_created_on>
+        <sys_id>ae83ee324797319077497116536d434c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:38:24</sys_updated_on>
+        <transform_compositions>[{"id":"ec7a7362c303201027d44077d840dd87","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"number","label":"Number","order":0,"attributes":{},"value":"1609.34","type":"int","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="divide">295abf22c303201027d44077d840dd54</transform_definition_id>
+        <ui_id>233a0a8e-1780-4abe-8687-3184cefb080a</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=9283ae324797319077497116536d43e3^sys_idNOT IN1283ae324797319077497116536d43ef,9e83ae324797319077497116536d43ea"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=fd40ed9f-f0ff-4b45-a22f-2b1600436ed1</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>athlete_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Athlete Name</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Strava Activity Import (Data Stream) v3">9283ae324797319077497116536d43e3</model>
+        <model_id>9283ae324797319077497116536d43e3</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_9283ae324797319077497116536d43e3</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:38:23</sys_created_on>
+        <sys_id>1283ae324797319077497116536d43ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:38:23</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=7724dafc-f27d-408e-bf14-acc176a9807c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>uniqueid</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>UniqueID</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Strava Activity Import (Data Stream) v3">9283ae324797319077497116536d43e3</model>
+        <model_id>9283ae324797319077497116536d43e3</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_9283ae324797319077497116536d43e3</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:38:23</sys_created_on>
+        <sys_id>9e83ae324797319077497116536d43ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:38:23</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_9283ae324797319077497116536d43e3"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_9283ae324797319077497116536d43e3"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_9283ae324797319077497116536d43e3"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_9283ae324797319077497116536d43e3"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>2d4326324797319077497116536d4392</sys_id>
+        <latest_snapshot>9283ae324797319077497116536d43e3</latest_snapshot>
+        <compiler_build>glide-vancouver-07-06-2023__patch5-12-01-2023_12-11-2023_2006.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=2d4326324797319077497116536d4392^sys_idNOT INfa83ee324797319077497116536d43fb"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan/>
+        <plan_id>2d4326324797319077497116536d4392</plan_id>
+        <snapshot>9283ae324797319077497116536d43e3</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 22:38:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fa83ee324797319077497116536d43fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 22:38:25</sys_updated_on>
+        <trigger display_value="">7683ee324797319077497116536d43fa</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=2d4326324797319077497116536d4392"/>
+</record_update>

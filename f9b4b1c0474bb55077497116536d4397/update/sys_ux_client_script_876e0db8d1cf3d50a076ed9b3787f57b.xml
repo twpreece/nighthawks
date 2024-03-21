@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Record Information">0f6e0db8abcf3d50858ed079a306ba79</macroponent>
+        <name>Set display block items</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ */
+function handler({api}) {
+  const transformHighlightValue = (item) => {
+    return {
+      type: 'highlighted-value',
+      label: item.displayValue,
+      status: item.status,
+      showIcon: item.showIcon,
+      color: item.colorName,
+      variant: item.variantName
+    };
+  };
+
+  const transformStringValue = (item) => {
+    return {
+      type: 'string',
+      value: item.displayValue
+    };
+  };
+
+  const transformTextLinkValue = (item) => {
+    return {
+      type: 'text-link',
+      label: item.displayValue,
+      href: 'javascript:void(0)',
+      table: item.table,
+      sysId: item.sysId
+    };
+  };
+
+  const headerItems = api.context.props.recordSecondaryItems;
+  const displayBlockItems = headerItems.map(item => {
+    const { fieldLabel, type } = item;
+    let displayBlockItemValue = {};
+
+    switch (type) {
+      case 'simple':
+        displayBlockItemValue = transformStringValue(item);
+        break;
+      case 'reference':
+        displayBlockItemValue = transformTextLinkValue(item);
+        break;
+      case 'highlighted':
+        displayBlockItemValue = transformHighlightValue(item);
+        break;
+      default:
+        // noop - empty object
+        break;
+    }
+
+    return {
+      label: fieldLabel,
+      value: displayBlockItemValue
+    };
+  });
+
+  api.setState('displayBlockItems', displayBlockItems);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-09 01:03:00</sys_created_on>
+        <sys_id>876e0db8d1cf3d50a076ed9b3787f57b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set display block items</sys_name>
+        <sys_package display_value="Nighthawks Team" source="x_snc_nighthawks_0">f9b4b1c0474bb55077497116536d4397</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_update_name>sys_ux_client_script_876e0db8d1cf3d50a076ed9b3787f57b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-09 01:03:00</sys_updated_on>
+        <target/>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

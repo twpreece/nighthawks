@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b8163184474bb55077497116536d431d" label="Activity" max_length="40" name="x_snc_nighthawks_0_team_activity" type="collection">
+        <element label="Activity ID" max_length="80" name="activity_id" type="string"/>
+        <element label="Athlete" max_length="32" name="athlete" reference="x_snc_nighthawks_0_athlete" type="reference"/>
+        <element label="Distance" max_length="38" name="distance" type="decimal"/>
+        <element label="Elapsed Time" max_length="255" name="elapsed_time" type="decimal"/>
+        <element label="Moving Time" max_length="20" name="moving_time" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Sport Type" max_length="40" name="sport_type" type="string"/>
+        <element label="Total Elevation Gain" max_length="40" name="total_elevation_gain" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Type" max_length="40" name="type" type="string"/>
+        <index name="index">
+            <element name="athlete"/>
+        </index>
+    </element>
+</database>

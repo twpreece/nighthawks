@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_condition">
+    <sys_ux_screen_condition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions_params_mapping/>
+        <is_result_memoizable>false</is_result_memoizable>
+        <screen display_value="Agent Assist">836e0db879cf3d50be3775f784442c94</screen>
+        <screen_condition/>
+        <script><![CDATA[(function canShowAA(params) {
+    return new x_snc_nighthawks_0.workspaceStarterExpUtils().checkContextualConfig(params.table);
+})(inputProperties);]]></script>
+        <scripted_condition>true</scripted_condition>
+        <sys_class_name>sys_ux_screen_condition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-09 01:03:00</sys_created_on>
+        <sys_id>c36e0db8f7cf3d50e8494a76c39f7c93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Nighthawks Team" source="x_snc_nighthawks_0">f9b4b1c0474bb55077497116536d4397</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
+        <sys_update_name>sys_ux_screen_condition_c36e0db8f7cf3d50e8494a76c39f7c93</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-09 01:03:00</sys_updated_on>
+    </sys_ux_screen_condition>
+</record_update>

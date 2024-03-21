@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Service Management Basics" source="com.snc.service">46d5453297b301108a13f7021153aff2</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 19:57:16</sys_created_on>
+        <sys_id>61457104474bb55077497116536d43f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Nighthawks Team" source="x_snc_nighthawks_0">f9b4b1c0474bb55077497116536d4397</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 19:57:16</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

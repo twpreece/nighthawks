@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="firstname" label="Firstname" language="en" table="x_snc_nighthawks_0_athlete">
+    <sys_documentation element="firstname" label="First Name" language="en" table="x_snc_nighthawks_0_athlete">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>firstname</element>
             <help/>
             <hint/>
-            <label>Firstname</label>
+            <label>First Name</label>
             <language>en</language>
             <name>x_snc_nighthawks_0_athlete</name>
             <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2023-12-06 20:15:18</sys_created_on>
-            <sys_mod_count>3</sys_mod_count>
-            <sys_name>Firstname</sys_name>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_name>First Name</sys_name>
             <sys_package display_value="Nighthawks Team" source="x_snc_nighthawks_0">f9b4b1c0474bb55077497116536d4397</sys_package>
             <sys_policy/>
             <sys_scope display_value="Nighthawks Team">f9b4b1c0474bb55077497116536d4397</sys_scope>
             <sys_update_name>sys_documentation_x_snc_nighthawks_0_athlete_firstname_en</sys_update_name>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-12-06 20:15:19</sys_updated_on>
+            <sys_updated_by>fred.luddy</sys_updated_by>
+            <sys_updated_on>2024-03-21 20:11:35</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

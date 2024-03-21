@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="fe497140478bb55077497116536d43a5" label="Athlete" max_length="40" name="x_snc_nighthawks_0_athlete" type="collection">
-        <element attributes="edge_encryption_enabled=true" label="Firstname" max_length="40" name="firstname" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Lastname" max_length="40" name="lastname" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="First Name" max_length="40" name="firstname" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Last Name" max_length="40" name="lastname" type="string"/>
         <element attributes="edge_encryption_enabled=true" display="true" label="Name" max_length="40" name="name" type="string" unique="true"/>
         <element attributes="edge_encryption_enabled=true" label="Racing Class" max_length="40" name="racing_class" type="string"/>
         <element label="Athlete?" max_length="40" name="u_athlete" type="boolean"/>
